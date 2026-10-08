@@ -137,3 +137,41 @@ html[data-theme=dark]{--bg:#0d0f12;--paper:#15181d;--ink:#f2f1eb;--muted:#9a9ca4
   .writing-section{padding:72px 0}
   .writing-heading{font-size:clamp(2.25rem,9.8vw,2.75rem)!important}
 }
+/* Principles section / compact editorial treatment */
+.principles{padding:84px 0}
+.principles .section-heading{margin-bottom:42px}
+.principles .section-heading h2{font-size:clamp(3.25rem,4.2vw,4rem);line-height:.97;max-width:1000px}
+.principles .principle-list{border-top:1px solid var(--line)}
+.principles .principle-list article{padding:24px 28px 26px 0;min-height:198px}
+.principles .principle-list article+article{padding-left:28px}
+.principles .principle-list span{font-size:9px}
+.principles .principle-list h3{font-size:clamp(1.875rem,2.6vw,2.5rem);line-height:.98;margin:16px 0 13px}
+.principles .principle-list p{max-width:340px;font-size:.95rem;line-height:1.55}
+.principles .principle-list article:after{font-size:12px;top:24px}
+@media(max-width:1050px) and (min-width:781px){
+  .principles{padding:72px 0}
+  .principles .section-heading{margin-bottom:38px}
+  .principles .section-heading h2{font-size:clamp(2.75rem,5.1vw,3.375rem);max-width:900px}
+  .principles .principle-list{grid-template-columns:1fr}
+  .principles .principle-list article,
+  .principles .principle-list article+article{min-height:0;padding:24px 0}
+  .principles .principle-list article+article{border-left:0;border-top:1px solid var(--line)}
+  .principles .principle-list h3{font-size:clamp(1.625rem,3vw,2.125rem);margin:12px 0 12px}
+  .principles .principle-list p{max-width:620px;font-size:.95rem}
+}
+@media(max-width:780px){
+  .principles{padding:64px 0}
+  .principles .section-heading{margin-bottom:38px}
+  .principles .section-heading h2{font-size:clamp(2.125rem,8.8vw,2.625rem);line-height:.99;max-width:100%}
+  .principles .principle-list article,
+  .principles .principle-list article+article{min-height:0;padding:24px 0}
+  .principles .principle-list h3{font-size:clamp(1.625rem,7.2vw,2rem);margin:10px 0 12px}
+  .principles .principle-list p{max-width:100%;font-size:.95rem;line-height:1.55}
+}
+@media(max-width:520px){
+  .principles{padding:60px 0}
+  .principles .section-heading{margin-bottom:34px}
+  .principles .section-heading h2{font-size:clamp(2.125rem,9.8vw,2.625rem)}
+  .principles .principle-list article,
+  .principles .principle-list article+article{padding:22px 0}
+}
