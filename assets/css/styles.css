@@ -58,3 +58,49 @@ html[data-theme=dark]{--bg:#0d0f12;--paper:#15181d;--ink:#f2f1eb;--muted:#9a9ca4
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.portrait-placeholder:before,.portrait-placeholder:after{animation:none}}
 @media(max-width:780px){.hero:before{right:14px;top:22px}.hero-side:after{right:0}.proof-band{padding-top:42px}.timeline-item.current:before{position:static;grid-column:2;margin-top:7px}.contact:before{width:100vw;height:100vw;right:-60vw;top:-15vw}}
 @media(max-width:520px){.hero:before{display:none}.hero-side:after{position:static;display:block;margin-top:10px}.portrait-monogram:after{right:-14px}.case:before{width:26px}}
+
+/* Work section / personal portfolio calibration */
+.work-section .section-heading h2{max-width:none}
+.work-context{max-width:620px;margin:18px 0 0;color:var(--muted);font-size:1rem;line-height:1.55}
+.work-section .case{gap:56px;padding:50px 0}
+.work-section .case-copy{max-width:600px}
+.work-section .case h3{font-size:clamp(2.65rem,3.2vw,3.5rem);line-height:.96}
+.work-section .case-lede{font-size:1.02rem;line-height:1.58;margin-bottom:24px}
+.work-section .case-role{margin-top:2px;max-width:560px}
+.work-section .case-role b{font:500 9px/1 "Martian Mono",monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.work-section .case-role p{margin:9px 0 0;font-size:.96rem;line-height:1.58}
+.work-section .case-proof{margin-top:22px;padding-top:14px;gap:8px 14px}
+.work-section .case-proof strong{font-size:clamp(2.5rem,3vw,3.5rem)}
+.work-section .case-art{min-height:380px}
+.work-section .case-dark{padding:50px 48px;margin:0 -48px}
+.work-section .case-dark .case-art{min-height:380px}
+.work-section .big-proof{font-size:clamp(4rem,6vw,5.25rem)}
+@media(min-width:1051px){.work-section .section-heading h2{white-space:nowrap}}
+@media(max-width:1050px){
+  .work-section .section-heading h2{font-size:clamp(3rem,5.2vw,3.5rem)}
+  .work-section .case{gap:40px;padding:46px 0}
+  .work-section .case-dark{padding:48px 34px;margin:0}
+  .work-section .case-art,.work-section .case-dark .case-art{min-height:340px}
+  .work-section .case h3{font-size:clamp(2.3rem,4vw,3rem)}
+}
+@media(max-width:780px){
+  .work-section .section-heading h2{font-size:clamp(2.2rem,8.5vw,2.8rem);white-space:normal}
+  .work-context{font-size:.96rem;margin-top:14px}
+  .work-section .case{gap:30px;padding:42px 0}
+  .work-section .case-dark{padding:42px 14px;margin:0 -14px}
+  .work-section .case-art,.work-section .case-dark .case-art{min-height:285px}
+  .work-section .case h3{font-size:clamp(2rem,8vw,2.65rem)}
+  .work-section .case-lede{font-size:1rem}
+  .work-section .case-role p{font-size:.94rem}
+  .work-section .case-proof strong{font-size:clamp(2.15rem,7vw,2.65rem)}
+  .work-section .case-feature .case-art{order:-1}
+}
+@media(max-width:520px){
+  .work-section .section-heading h2{font-size:clamp(2.05rem,8.5vw,2.55rem)}
+  .work-section .case{gap:26px;padding:38px 0}
+  .work-section .case-art,.work-section .case-dark .case-art{min-height:250px}
+  .work-section .case h3{font-size:clamp(1.95rem,8.8vw,2.4rem)}
+  .work-section .case-role p{font-size:.93rem}
+  .work-section .case-proof{margin-top:19px}
+  .work-section .case-proof strong{font-size:clamp(2rem,8vw,2.35rem)}
+}
