@@ -1,32 +1,35 @@
 # Amir Khan Portfolio
 
-Static GitHub Pages portfolio for Amir Khan.
+Premium founder portfolio for Amir Khan, built as a static GitHub Pages site.
 
 ## Stack
 
 Plain HTML5, CSS and minimal vanilla JavaScript. No framework, build step, npm dependency, tracker, or external JavaScript library. Fonts use Google Fonts only.
 
-## Deploy on GitHub Pages
+## Deploy
 
-1. Push all files to the `main` branch root.
-2. In GitHub, open **Settings → Pages**.
-3. Choose **Deploy from branch**, then `main` / `(root)`.
-4. For a custom domain, add the domain in Settings → Pages and commit a `CNAME` file containing only the domain. At the DNS provider, set the apex A records to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` and the `www` CNAME to `<username>.github.io`. Then enable **Enforce HTTPS**.
-5. Replace every `[SITE_URL]` placeholder with the final site URL.
+This repository is configured for the project site:
+
+https://amirkhanworks.github.io/me/
+
+Push the repository to GitHub and enable **Settings → Pages → Deploy from branch → main / (root)**.
+
+No custom-domain CNAME is included because the final domain is the GitHub Pages project URL.
 
 ## Before launch
 
 - [ ] `[EMAIL]`: contact email
-- [ ] `[SITE_URL]`: final domain
 - [ ] `[SSRN_URL]`: link to the SSRN paper
-- [ ] Headshot files (web, JPG fallback, hi-res for press)
+- [ ] Supply the real headshot files: WebP, JPG and hi-res press version
+- [ ] Replace the headshot asset placeholder panel on the Press page with the supplied photo files
 - [ ] Analytics snippet (optional)
 - [ ] Decide whether to keep the three "In draft" essays listed
+- [ ] Re-run Lighthouse on mobile at 360px and desktop at 1280px+
 
-## Notes
+## Hard content rules
 
-- Headshots are placeholders and need to be supplied.
-- `assets/img/og-image.svg` is the source for the requested social card; PNG export still needs to be generated before launch.
-- Binary favicon fallbacks are not generated in this connector workflow and should be supplied before launch if required.
-- No custom domain is set because the final domain is not provided.
-- Hard content rules were applied: restricted ventures and roles are excluded, CamelX client is anonymised as "GCC client", Luminox public title is "Co-founder", FutureMatch/Recruitics contains pipeline only, and no em dashes appear in copy.
+The website uses the approved content only. Luminox pricing is not published. Restricted ventures and roles are excluded. CamelX is anonymised as a GCC client. The public Luminox title is Co-founder. FutureMatch/Recruitics is described as pipeline only. No em dash is used in website copy.
+
+## Design direction
+
+The previous datasheet treatment has been replaced with a premium editorial system: large typography, asymmetrical project compositions, visual case-study systems, editorial career chronology, restrained colour, and a dark final CTA.
