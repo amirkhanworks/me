@@ -329,3 +329,21 @@ html[data-theme=dark]{--bg:#0d0f12;--paper:#15181d;--ink:#f2f1eb;--muted:#9a9ca4
   .featured-essay>p:not(.eyebrow){font-size:.95rem}
   .drafts>a{font-size:.875rem;padding:16px 0}
 }
+
+
+/* Recognition / Press transition — remove standalone separator */
+.recognition{border-bottom:0;padding-bottom:36px}
+.recognition-list>div:last-child{border-bottom:0}
+.press-section{padding-top:40px}
+@media(max-width:1279px) and (min-width:1024px){
+  .recognition{padding-bottom:32px}
+  .press-section{padding-top:36px}
+}
+@media(max-width:1023px) and (min-width:768px){
+  .recognition{padding-bottom:30px}
+  .press-section{padding-top:34px}
+}
+@media(max-width:767px){
+  .recognition{padding-bottom:26px}
+  .press-section{padding-top:28px}
+}
