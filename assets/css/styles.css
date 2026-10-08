@@ -104,3 +104,16 @@ html[data-theme=dark]{--bg:#0d0f12;--paper:#15181d;--ink:#f2f1eb;--muted:#9a9ca4
   .work-section .case-proof{margin-top:19px}
   .work-section .case-proof strong{font-size:clamp(2rem,8vw,2.35rem)}
 }
+/* Career heading / wide editorial treatment */
+.career-heading{max-width:1100px!important;font-size:clamp(3.5rem,4.4vw,4.25rem)!important;line-height:.97!important}
+.career-heading span{display:inline}
+@media(max-width:1279px) and (min-width:1100px){
+  .career-heading{font-size:clamp(3rem,4.4vw,3.5rem)!important;max-width:1050px!important}
+}
+@media(max-width:1099px) and (min-width:781px){
+  .career-heading{font-size:clamp(3rem,5.1vw,3.5rem)!important;max-width:900px!important}
+  .career-heading span{display:block}
+}
+@media(max-width:780px){
+  .career-heading{font-size:clamp(2.25rem,8.8vw,2.75rem)!important;max-width:100%!important;line-height:.98!important}
+}
