@@ -7,7 +7,7 @@ A responsive personal portfolio for Amir Khan, showcasing work across technology
 - `index.html` — semantic, single-page portfolio
 - `styles.css` — responsive layout and visual system
 - `script.js` — mobile navigation and dynamic footer year
-- `assets/` — optimized portfolio photography and milestone images (WebP)
+- `assets/` — optimized portfolio photography and milestone images (WebP; includes personal University of London photos)
 
 ## Run locally
 
