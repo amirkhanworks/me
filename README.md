@@ -7,7 +7,7 @@ An editorial-style, responsive portfolio for Amir Khan, showcasing experience ac
 - **Draft branch:** [portfolio-v2-draft](https://github.com/amirkhanworks/me/tree/portfolio-v2-draft)
 - This branch is intentionally separate from `main`.
 - The current `main` website is not changed by the V2 draft.
-- No production GitHub Pages settings are changed by this branch.
+- No production GitHub Pages settings are changed by this branch. The draft includes a `noindex, nofollow` directive; remove it and set production sharing metadata only when the approved site URL is confirmed.
 
 ## Run locally
 
