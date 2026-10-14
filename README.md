@@ -7,7 +7,7 @@ An editorial-style, responsive portfolio for Amir Khan, showcasing experience ac
 - **Draft branch:** [portfolio-v2-draft](https://github.com/amirkhanworks/me/tree/portfolio-v2-draft)
 - This branch is intentionally separate from `main`.
 - The current `main` website is not changed by the V2 draft.
-- No production GitHub Pages settings are changed by this branch. The draft includes a `noindex, nofollow` directive; remove it and set production sharing metadata only when the approved site URL is confirmed.
+- No production GitHub Pages settings are changed by this branch. You can select this branch manually in Pages settings when you are ready to host it.
 
 ## Run locally
 
@@ -37,6 +37,13 @@ About, professional experience, six highlights, SSRN research, Birkbeck mentorin
 
 Career dates and reported metrics reflect the supplied portfolio material. Education labels follow the supplied CV wording. The research card links to the supplied SSRN paper and avoids claiming unverified findings. The Birkbeck mentorship summary is based on the university's published article: https://www.bbk.ac.uk/news/from-mentee-to-mentor-birkbeck-graduates-journey-comes-full-circle
 
-## Deployment
+## Publish manually with GitHub Pages
 
-Do not publish this branch over the existing site during review. A preview can be created separately if needed; production Pages settings have not been changed. When the draft is approved, review the diff and merge through a pull request rather than force-pushing to `main`.
+To host this version from GitHub Pages:
+
+1. Open the repository's **Settings → Pages**.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select branch **`portfolio-v2-draft`** and folder **`/(root)`**.
+4. Click **Save**, then wait for the Pages deployment to finish. GitHub will display the published URL in Pages settings.
+
+The page uses relative paths for its stylesheet, JavaScript, favicon and local photos. This task does not change Pages settings or merge anything into `main`; choosing the publishing branch is your manual step.
