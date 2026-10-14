@@ -3,181 +3,231 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f7f4">
-  <meta name="description" content="Amir Khan — builder, operator and mentor working across technology, growth, automation and startup ecosystems.">
+  <meta name="theme-color" content="#f5f5f0">
+  <meta name="description" content="Amir Khan is a builder, operator and mentor working across technology, business growth, SaaS, startup ecosystems and mentorship.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Amir Khan — Builder, Operator, Mentor">
+  <meta property="og:description" content="Technology, business growth, startup ecosystems and giving back.">
+  <meta name="twitter:card" content="summary">
   <title>Amir Khan — Builder, Operator, Mentor</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="wordmark" href="#top" aria-label="Amir Khan home">AK<span>.</span></a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-    <nav id="site-nav" class="nav">
-      <a href="#about">About</a>
-      <a href="#work">Experience</a>
-      <a href="#highlights">Highlights</a>
-      <a href="#research">Research</a>
-      <a href="#community">Community</a>
-      <a class="nav-contact" href="#contact">Let’s talk <span>↗</span></a>
-    </nav>
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="Amir Khan, home">AK<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#research">Research</a>
+        <a href="#community">Community</a>
+        <a class="nav-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
   </header>
 
-  <main id="top">
-    <section class="hero section-wrap">
+  <main id="main">
+    <section class="hero section-wrap" id="top" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> Mumbai, India · Working globally</p>
-        <h1>Building at the intersection of <span>technology, growth</span> and people.</h1>
+        <p class="eyebrow"><span class="availability-dot" aria-hidden="true"></span> Mumbai, India <span class="eyebrow-separator">/</span> Working globally</p>
+        <h1 id="hero-title">Building at the intersection of <em>technology, growth</em> and people.</h1>
         <p class="hero-lede">I’m Amir Khan — a builder, operator and mentor who enjoys turning complex problems into clear strategy, useful products and sustainable growth.</p>
         <div class="hero-actions">
-          <a class="button button-dark" href="#work">Explore my work <span>↘</span></a>
-          <a class="text-link" href="https://linkedin.com/in/aaamirkhan" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a>
+          <a class="button button-dark" href="#experience">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="underlined-link" href="https://linkedin.com/in/aaamirkhan" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="hero-note"><span class="note-line"></span><span>Strategy · Automation · Go-to-market · Mentorship</span></div>
+        <div class="hero-signature"><span class="signature-line" aria-hidden="true"></span><span>Strategy · Automation · Go-to-market · Mentorship</span></div>
       </div>
       <div class="hero-visual">
-        <div class="photo-frame">
-          <img src="assets/amir-senate-house.webp" alt="Amir Khan outside Senate House, University of London">
-          <div class="photo-caption"><span>London, UK</span><span>University of London</span></div>
+        <div class="hero-photo">
+          <img src="assets/amir-senate-house.webp" alt="Amir Khan outside Senate House at the University of London" width="259" height="346" fetchpriority="high">
+          <div class="photo-label"><span>London, UK</span><span>University of London</span></div>
         </div>
-        <div class="floating-card"><span class="floating-icon">↗</span><span>From ideas<br>to impact.</span></div>
-        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="photo-note"><span class="note-symbol" aria-hidden="true">↗</span><p>From ideas<br>to impact.</p></div>
+        <span class="hero-orbit orbit-outer" aria-hidden="true"></span>
+        <span class="hero-orbit orbit-inner" aria-hidden="true"></span>
+        <span class="hero-index" aria-hidden="true">01 — 07</span>
       </div>
-      <div class="hero-bottom"><span>Scroll to explore</span><span class="scroll-mark">↓</span><span class="hero-bottom-line"></span></div>
+      <a class="scroll-cue" href="#about"><span>Scroll to explore</span><span class="scroll-arrow" aria-hidden="true">↓</span></a>
     </section>
 
-    <section id="about" class="intro section-wrap section">
-      <div class="section-kicker">01 / A little about me</div>
-      <div class="intro-content">
-        <h2>Curious by nature.<br><span>Impact by design.</span></h2>
-        <div class="intro-description">
-          <p>My work spans technology, business analysis, enterprise sales, customer discovery and growth. I like connecting the dots between what customers need, what teams can build and what businesses need to achieve.</p>
-          <p>My journey from Mumbai to London shaped how I think about ambition, opportunity and community. It also taught me that meaningful progress happens when people share what they know and help others move forward.</p>
-          <a class="text-link" href="https://www.bbk.ac.uk/news/from-mentee-to-mentor-birkbeck-graduates-journey-comes-full-circle" target="_blank" rel="noreferrer">Read my Birkbeck story ↗</a>
-        </div>
-      </div>
-      <div class="principles">
-        <article><span>01</span><h3>Build with purpose</h3><p>Start with real customer problems and work backwards to practical solutions.</p></article>
-        <article><span>02</span><h3>Make complexity clear</h3><p>Bring structure to ambiguity through analysis, communication and collaboration.</p></article>
-        <article><span>03</span><h3>Pay it forward</h3><p>Share lessons, support emerging talent and make room for other people to grow.</p></article>
-      </div>
-    </section>
-
-    <section id="work" class="work section">
+    <section id="about" class="section section-about" aria-labelledby="about-title">
       <div class="section-wrap">
-        <div class="section-heading"><div><div class="section-kicker">02 / Selected experience</div><h2>Work that moves<br><span>things forward.</span></h2></div><p>A cross-functional path through enterprise technology, data, commercial strategy and early-stage building.</p></div>
-        <div class="experience-list">
-          <article class="experience-item">
-            <div class="experience-date">Jun 2026 — Present</div>
-            <div class="experience-main"><div class="experience-company">Luminox Automation <span class="tag">Current</span></div><h3>Co-Founder &amp; Head of Tech &amp; Growth</h3><p>Leading business strategy and customer discovery, go-to-market initiatives, strategic partnerships and coordination across product, technology and brand.</p><div class="chips"><span>Strategy</span><span>Customer discovery</span><span>GTM</span><span>Automation</span></div></div>
-            <div class="experience-location">Mumbai, India</div>
-          </article>
-          <article class="experience-item">
-            <div class="experience-date">Aug 2024 — Jun 2026</div>
-            <div class="experience-main"><div class="experience-company">FutureMatch</div><h3>Enterprise SaaS Sales Executive</h3><p>Built a £2M+ qualified pipeline for an AI-enabled HR-tech SaaS platform across the UK. Partnered with product and marketing, tailored demonstrations to ATS/HRIS environments and created evidence-based business cases for stakeholders.</p><div class="chips"><span>Enterprise SaaS</span><span>AI &amp; HR tech</span><span>Account-based marketing</span></div></div>
-            <div class="experience-location">London, UK</div>
-          </article>
-          <article class="experience-item">
-            <div class="experience-date">Jan 2023 — Jul 2024</div>
-            <div class="experience-main"><div class="experience-company">BreakBottle</div><h3>Account Executive</h3><p>Built B2B partnerships with Sage and Imperial Business School, executed organic multi-channel marketing and supported sustainability-focused SMEs through targeted partnerships.</p><div class="chips"><span>Partnerships</span><span>Growth</span><span>Content strategy</span></div></div>
-            <div class="experience-location">London, UK</div>
-          </article>
-          <article class="experience-item">
-            <div class="experience-date">Jan 2021 — Dec 2022</div>
-            <div class="experience-main"><div class="experience-company">IFI Techsolutions <span class="muted">(Microsoft Partner)</span></div><h3>Senior Business Analyst, Cloud</h3><p>Oversaw a 15+ engineer global cloud support team while sustaining a 99.95% SLA. Produced analytical documentation, risk assessments, root-cause analyses and compliance reviews; earned a fast-track promotion in April 2022.</p><div class="chips"><span>Cloud</span><span>Analytics</span><span>Quality &amp; risk</span></div></div>
-            <div class="experience-location">India</div>
-          </article>
-          <article class="experience-item">
-            <div class="experience-date">Jan 2020 — Dec 2020</div>
-            <div class="experience-main"><div class="experience-company">Luminox Automation</div><h3>Founding Member, IoT Product</h3><p>Managed smart-home IoT product development from concept to launch, coordinated iOS and Android app teams and supported product experience decisions.</p><div class="chips"><span>IoT</span><span>Product development</span><span>UI/UX</span></div></div>
-            <div class="experience-location">Mumbai, India</div>
-          </article>
-          <article class="experience-item">
-            <div class="experience-date">Jun 2019 — Jan 2020</div>
-            <div class="experience-main"><div class="experience-company">HUDL</div><h3>Analyst, Data</h3><p>Analysed 400+ matches across football, basketball, volleyball and ice hockey, maintained 98% quality-control consistency and translated analysis into practical coaching insights.</p><div class="chips"><span>Data analysis</span><span>Quality control</span><span>Sports analytics</span></div></div>
-            <div class="experience-location">Mumbai, India</div>
-          </article>
+        <div class="section-kicker">01 <span>/</span> A little about me</div>
+        <div class="split-heading">
+          <h2 id="about-title">Curious by nature.<br><em>Impact by design.</em></h2>
+          <div class="body-copy">
+            <p>My work spans technology, business analysis, enterprise sales, customer discovery and growth. I enjoy connecting what customers need, what teams can build and what businesses need to achieve.</p>
+            <p>My journey from Mumbai to London shaped how I think about ambition, opportunity and community. It also taught me that meaningful progress happens when people share what they know and help others move forward.</p>
+            <a class="underlined-link" href="https://www.bbk.ac.uk/news/from-mentee-to-mentor-birkbeck-graduates-journey-comes-full-circle" target="_blank" rel="noopener noreferrer">Read my Birkbeck story <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="principle-grid">
+          <article class="principle"><span class="principle-number">01</span><h3>Build with purpose</h3><p>Start with real customer problems and work backwards to practical solutions.</p></article>
+          <article class="principle"><span class="principle-number">02</span><h3>Make complexity clear</h3><p>Bring structure to ambiguity through analysis, communication and collaboration.</p></article>
+          <article class="principle"><span class="principle-number">03</span><h3>Pay it forward</h3><p>Share lessons, support emerging talent and make room for other people to grow.</p></article>
         </div>
       </div>
     </section>
 
-
-    <section id="highlights" class="highlights section">
+    <section id="experience" class="section section-experience" aria-labelledby="experience-title">
       <div class="section-wrap">
         <div class="section-heading">
-          <div><div class="section-kicker">03 / Moments &amp; milestones</div><h2>Good work is a team sport.<br><span>Progress deserves a moment.</span></h2></div>
+          <div><div class="section-kicker">02 <span>/</span> Selected experience</div><h2 id="experience-title">Work that moves<br><em>things forward.</em></h2></div>
+          <p>A cross-functional path through enterprise technology, data, commercial strategy and early-stage building.</p>
+        </div>
+        <div class="experience-list">
+          <article class="experience-item">
+            <div class="experience-meta"><span>Jun 2026 — Present</span><span class="current-tag"><i aria-hidden="true"></i> Current</span></div>
+            <div class="experience-content"><p class="company-name">Luminox Automation <span>· Mumbai</span></p><h3>Co-Founder &amp; Head of Tech &amp; Growth</h3><p>Lead business strategy and customer discovery, build partnerships and go-to-market initiatives, and coordinate work across product, technology and business teams.</p><div class="skill-chips"><span>Strategy</span><span>Customer discovery</span><span>Go-to-market</span></div></div>
+          </article>
+          <article class="experience-item">
+            <div class="experience-meta"><span>Aug 2024 — Jun 2026</span></div>
+            <div class="experience-content"><p class="company-name">FutureMatch <span>· London</span></p><h3>Enterprise SaaS Sales Executive</h3><p>Built a qualified UK pipeline for an AI-enabled HR-tech SaaS platform, tailored demonstrations and business cases to client environments, and ran account-based marketing campaigns.</p><div class="skill-chips"><span>Enterprise SaaS</span><span>Sales</span><span>ABM</span></div></div>
+          </article>
+          <article class="experience-item">
+            <div class="experience-meta"><span>Jan 2023 — Jul 2024</span></div>
+            <div class="experience-content"><p class="company-name">BreakBottle <span>· London</span></p><h3>Account Executive</h3><p>Built B2B partnerships including with Sage and Imperial Business School, delivered organic marketing and SEO-led content, and supported sustainability-focused SMEs.</p><div class="skill-chips"><span>Partnerships</span><span>Organic growth</span><span>B2B</span></div></div>
+          </article>
+          <article class="experience-item">
+            <div class="experience-meta"><span>Jan 2021 — Dec 2022</span><span class="metric">15+ engineers</span></div>
+            <div class="experience-content"><p class="company-name">IFI Techsolutions <span>· Microsoft Partner</span></p><h3>Senior Business Analyst, Cloud</h3><p>Oversaw a global cloud support team of 15+ engineers, supported a reported 99.95% SLA through quality-control processes and audits, and prepared risk assessments and root-cause analysis. Earned a 5/5 performance review and a fast-track promotion in April 2022.</p><div class="skill-chips"><span>Cloud operations</span><span>Analysis</span><span>Quality control</span></div></div>
+          </article>
+          <article class="experience-item">
+            <div class="experience-meta"><span>Jan 2020 — Dec 2020</span></div>
+            <div class="experience-content"><p class="company-name">Luminox Automation <span>· Mumbai</span></p><h3>Founding Member, IoT Product</h3><p>Worked on smart-home IoT product development from concept to launch and coordinated iOS and Android application development, including UI/UX.</p><div class="skill-chips"><span>IoT</span><span>Product</span><span>Mobile apps</span></div></div>
+          </article>
+          <article class="experience-item">
+            <div class="experience-meta"><span>Jun 2019 — Jan 2020</span><span class="metric">400+ matches</span></div>
+            <div class="experience-content"><p class="company-name">Hudl <span>· Mumbai</span></p><h3>Analyst, Data</h3><p>Analysed more than 400 matches across multiple sports, maintained reported 98% quality-control consistency and translated findings into actionable insights for coaching staff.</p><div class="skill-chips"><span>Data analysis</span><span>Quality control</span><span>Sports</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="highlights" class="section section-highlights" aria-labelledby="highlights-title">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><div class="section-kicker">03 <span>/</span> Moments &amp; milestones</div><h2 id="highlights-title">Good work is a team sport.<br><em>Progress deserves a moment.</em></h2></div>
           <p>Recognition, learning and the people who make the journey better.</p>
         </div>
         <div class="highlight-grid">
           <article class="highlight-card highlight-feature">
-            <div class="highlight-image"><img src="assets/futurematch-celebration.webp" alt="FutureMatch colleagues celebrating together in Belfast"></div>
-            <div class="highlight-body"><p class="eyebrow">FutureMatch · Belfast</p><h3>Celebrating the journey together</h3><p>A New Year get-together with the FutureMatch team in Belfast — a reminder that the best work grows from shared effort, curiosity and good people.</p></div>
+            <a class="highlight-image" href="assets/futurematch-celebration.webp" target="_blank" rel="noopener noreferrer" aria-label="View FutureMatch celebration photograph"><img src="assets/futurematch-celebration.webp" alt="FutureMatch colleagues celebrating together in Belfast" width="480" height="360" loading="lazy"></a>
+            <div class="highlight-body"><p class="eyebrow">FutureMatch <span>·</span> Belfast</p><h3>Celebrating the journey together</h3><p>A New Year get-together with the FutureMatch team in Belfast — a reminder that the best work grows from shared effort, curiosity and good people.</p><span class="card-index">01 / TEAM</span></div>
           </article>
           <article class="highlight-card">
-            <div class="highlight-image award-image"><img src="assets/futurematch-awards.webp" alt="Transformation of the Year and Human Google awards presented to Amir Khan in 2024"></div>
-            <div class="highlight-body"><p class="eyebrow">FutureMatch · 2024</p><h3>Transformation of the Year &amp; Human Google</h3><p>Recognised for listening to feedback, learning and growing throughout the year — and for staying curious, sharing knowledge and helping people find answers.</p></div>
+            <a class="highlight-image" href="assets/futurematch-awards.webp" target="_blank" rel="noopener noreferrer" aria-label="View FutureMatch award photograph"><img src="assets/futurematch-awards.webp" alt="Transformation of the Year and Human Google awards presented to Amir Khan in 2024" width="360" height="480" loading="lazy"></a>
+            <div class="highlight-body"><p class="eyebrow">FutureMatch <span>·</span> 2024</p><h3>Recognition for growth and curiosity</h3><p>The Transformation of the Year Award and the Human Google Award — recognising learning from feedback, curiosity, knowledge and helping others find answers.</p><span class="card-index">02 / RECOGNITION</span></div>
           </article>
           <article class="highlight-card">
-            <div class="highlight-image"><img src="assets/university-of-london-graduation.webp" alt="Amir Khan at his University of London graduation ceremony"></div>
-            <div class="highlight-body"><p class="eyebrow">University of London</p><h3>A milestone worth remembering</h3><p>A proud graduation moment marking a postgraduate journey shaped by technology, management and new perspectives.</p></div>
+            <a class="highlight-image" href="assets/university-of-london-graduation.webp" target="_blank" rel="noopener noreferrer" aria-label="View University of London graduation photograph"><img src="assets/university-of-london-graduation.webp" alt="Amir Khan receiving his degree at a University of London graduation ceremony" width="480" height="320" loading="lazy"></a>
+            <div class="highlight-body"><p class="eyebrow">University of London</p><h3>A milestone worth remembering</h3><p>A proud graduation moment marking an academic journey shaped by technology, management and new perspectives.</p><span class="card-index">03 / LEARNING</span></div>
           </article>
           <article class="highlight-card">
-            <div class="highlight-image"><img src="assets/180dc-sofia-team.webp" alt="The 180 Degrees Consulting Sofia chapter team together in Bulgaria"></div>
-            <div class="highlight-body"><p class="eyebrow">180 Degrees Consulting · Sofia</p><h3>Strategy, service and new connections</h3><p>During my consulting summer internship with 180 Degrees Consulting’s Sofia chapter, I worked with a fantastic team to develop strategies and practical solutions with mentors from Baringa. The invitation to Sofia for our final presentation made the experience especially memorable: we met in person for the first time and presented our work together.</p><a class="text-link" href="https://www.linkedin.com/company/180degreesconsultingsofia/" target="_blank" rel="noreferrer">Explore 180 Degrees Consulting Sofia ↗</a></div>
+            <a class="highlight-image" href="assets/180dc-sofia-team.webp" target="_blank" rel="noopener noreferrer" aria-label="View 180 Degrees Consulting Sofia team photograph"><img src="assets/180dc-sofia-team.webp" alt="The 180 Degrees Consulting Sofia chapter team together in Bulgaria" width="480" height="272" loading="lazy"></a>
+            <div class="highlight-body"><p class="eyebrow">180 Degrees Consulting <span>·</span> Sofia</p><h3>Strategy, service and new connections</h3><p>During my consulting summer internship, I worked with a fantastic team on strategies and practical solutions with mentors from Baringa. Travelling to Sofia for the final presentation meant meeting teammates in person for the first time.</p><div class="card-links"><a href="https://www.linkedin.com/company/180degreesconsulting/" target="_blank" rel="noopener noreferrer">180DC <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/company/baringa/" target="_blank" rel="noopener noreferrer">Baringa <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/company/180degreesconsultingsofia/" target="_blank" rel="noopener noreferrer">Sofia chapter <span aria-hidden="true">↗</span></a></div><span class="card-index">04 / CONSULTING</span></div>
           </article>
           <article class="highlight-card">
-            <div class="highlight-image"><img src="assets/london-startup-fair.webp" alt="London Startup Fair 2023 volunteer team outside Senate House, University of London"></div>
-            <div class="highlight-body"><p class="eyebrow">London Startup Fair · 2023</p><h3>Volunteering for the startup community</h3><p>I was grateful to volunteer with LSESU Entrepreneurs, UCL Entrepreneurs and Imperial Entrepreneurs for the London Startup Fair 2023. Thank you to Raghav Sanagavarapu, Jai Ansh, Reese Wong, Maria Timofeeva, Tom-Bennett Flemming, Tse-Han Wu, Toby Wong and the wider core team for making the event possible.</p></div>
+            <a class="highlight-image" href="assets/london-startup-fair.webp" target="_blank" rel="noopener noreferrer" aria-label="View London Startup Fair 2023 volunteer photograph"><img src="assets/london-startup-fair.webp" alt="London Startup Fair volunteer team outside Senate House, University of London" width="800" height="600" loading="lazy"></a>
+            <div class="highlight-body"><p class="eyebrow">London Startup Fair <span>·</span> 2023</p><h3>Volunteering for the startup community</h3><p>I volunteered with LSESU Entrepreneurs, UCL Entrepreneurs and Imperial Entrepreneurs. Thanks to Raghav Sanagavarapu, Jai Ansh, Reese Wong, Maria Timofeeva, Tom-Bennett Flemming, Tse-Han Wu, Toby Wong and the wider core team for making the event possible.</p><span class="card-index">05 / COMMUNITY</span></div>
           </article>
           <article class="highlight-card">
-            <div class="highlight-image"><img src="assets/tedx-london-volunteer.webp" alt="TEDx London Women volunteer team on stage beneath the event screen"></div>
-            <div class="highlight-body"><p class="eyebrow">TEDx London · Volunteering</p><h3>Helping bring ideas to the stage</h3><p>Volunteered with the TEDx London Women team, supporting an event that brought people together to share ideas, stories and perspectives.</p></div>
+            <a class="highlight-image" href="assets/tedx-london-volunteer.webp" target="_blank" rel="noopener noreferrer" aria-label="View TEDx London Women volunteer team photograph"><img src="assets/tedx-london-volunteer.webp" alt="TEDx London Women volunteer team on stage beneath the event's #ShowingUp screen" width="560" height="373" loading="lazy"></a>
+            <div class="highlight-body"><p class="eyebrow">TEDx London Women <span>·</span> Volunteering</p><h3>Helping bring ideas to the stage</h3><p>I volunteered with the TEDx London Women team, supporting a shared effort to bring people together around ideas, stories and perspectives.</p><span class="card-index">06 / VOLUNTEERING</span></div>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="research" class="research section-wrap section">
-      <div class="section-kicker">04 / Research &amp; ideas</div>
-      <div class="research-feature">
-        <div class="research-copy"><p class="eyebrow">SSRN · Research paper</p><h2>Digital Transformation and Venture Capital in Startup Ecosystems</h2><p>Exploring how digital capabilities and venture capital interact to shape startup growth — from cloud and automation foundations to go-to-market execution, governance and investor support.</p><a class="button button-light" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6210800" target="_blank" rel="noreferrer">Read the paper <span>↗</span></a></div>
-        <div class="research-graphic" aria-hidden="true"><div class="graphic-ring ring-a"></div><div class="graphic-ring ring-b"></div><div class="graphic-ring ring-c"></div><div class="graphic-core">DT<span>×</span>VC</div><span class="graphic-label label-a">Digital capability</span><span class="graphic-label label-b">Capital</span><span class="graphic-label label-c">Startup growth</span></div>
+    <section id="research" class="section section-research" aria-labelledby="research-title">
+      <div class="section-wrap">
+        <div class="section-kicker">04 <span>/</span> Research &amp; ideas</div>
+        <div class="research-panel">
+          <div class="research-copy">
+            <p class="eyebrow">SSRN <span>·</span> Research paper</p>
+            <h2 id="research-title">Digital Transformation and Venture Capital in Startup Ecosystems</h2>
+            <p>A research interest at the intersection of digital transformation, venture capital and the environments where startups form and grow.</p>
+            <a class="button button-light" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6210800" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="research-art" aria-hidden="true">
+            <div class="art-ring art-ring-one"></div><div class="art-ring art-ring-two"></div><div class="art-ring art-ring-three"></div>
+            <div class="art-core">DT<span>×</span>VC</div><span class="art-label art-label-one">Digital</span><span class="art-label art-label-two">Capital</span><span class="art-label art-label-three">Startups</span>
+          </div>
+        </div>
+        <p class="research-note">Topic description only; see the linked SSRN page for the paper itself and its publication details.</p>
       </div>
-      <div class="research-points"><div><span>01</span><p>Digital foundations</p></div><div><span>02</span><p>Customer &amp; market execution</p></div><div><span>03</span><p>Risk, governance &amp; alignment</p></div></div>
     </section>
 
-    <section id="community" class="community section">
+    <section id="community" class="section section-community" aria-labelledby="community-title">
       <div class="section-wrap community-grid">
-        <div class="community-copy"><div class="section-kicker">05 / Community &amp; education</div><h2>Growth is better<br><span>when it’s shared.</span></h2><p>Mentorship has been an important part of my own journey. After benefiting from guidance as an international student, I became a mentor with Birkbeck’s Mentoring Pathways programme — helping others work through career questions, explore options and set useful goals.</p><blockquote>“I wanted to be the kind of senior I once looked up to as a junior.”<cite>— Amir Khan, Birkbeck graduate</cite></blockquote><a class="text-link" href="https://www.bbk.ac.uk/news/from-mentee-to-mentor-birkbeck-graduates-journey-comes-full-circle" target="_blank" rel="noreferrer">The story behind the mission ↗</a></div>
-        <div class="community-photo"><img src="assets/amir-university-steps.webp" alt="Amir at the University of London, Senate House steps"><div class="photo-stamp"><span>LEARN</span><span>BUILD</span><span>GIVE BACK</span></div></div>
-      </div>
-      <div class="section-wrap education">
-        <div class="education-heading"><div class="section-kicker">Education</div><p>Learning that connects people, technology and business.</p></div>
-        <div class="education-list">
-          <article><div class="edu-year">2023 — 2024</div><div><h3>MSc Management (Technology)</h3><p>Birkbeck, University of London</p></div><span class="edu-mark">MSc</span></article>
-          <article><div class="edu-year">Undergraduate</div><div><h3>Bachelor of Electronics Engineering</h3><p>Mumbai University, Mumbai</p></div><span class="edu-mark">BE</span></article>
+        <div class="community-copy">
+          <div class="section-kicker">05 <span>/</span> Community &amp; education</div>
+          <h2 id="community-title">Growth is better<br><em>when it’s shared.</em></h2>
+          <p>After moving from Mumbai to London to study at Birkbeck, Amir benefited from support through the Mentoring Pathways programme. He later became a mentor himself, helping mentees explore career paths, internship options and practical goals.</p>
+          <a class="underlined-link" href="https://www.bbk.ac.uk/news/from-mentee-to-mentor-birkbeck-graduates-journey-comes-full-circle" target="_blank" rel="noopener noreferrer">Read the full Birkbeck story <span aria-hidden="true">↗</span></a>
+          <div class="education-block">
+            <p class="eyebrow">Education</p>
+            <article class="education-item"><div class="education-monogram">MSc</div><div><h3>MSc in Management (Technology)</h3><p>University of London, London</p></div></article>
+            <article class="education-item"><div class="education-monogram">BE</div><div><h3>Bachelor of Electronics Engineering</h3><p>Mumbai University, Mumbai</p></div></article>
+          </div>
+        </div>
+        <div class="community-visual">
+          <img src="assets/amir-university-steps.webp" alt="Amir at the steps of Senate House, University of London" width="259" height="346" loading="lazy">
+          <div class="community-stamp"><span>LEARN</span><i aria-hidden="true">·</i><span>BUILD</span><i aria-hidden="true">·</i><span>GIVE BACK</span></div>
+          <p class="image-caption">A journey shaped by learning, opportunity and community.</p>
         </div>
       </div>
     </section>
 
-    <section class="skills section-wrap section">
-      <div class="section-kicker">06 / Toolkit</div><div class="section-heading"><div><h2>Useful skills.<br><span>Practical mindset.</span></h2></div><p>Combining analytical discipline with customer empathy and cross-functional execution.</p></div>
-      <div class="skill-groups">
-        <div><h3>Business &amp; growth</h3><p>Business strategy · Customer discovery · Go-to-market · Enterprise sales · Partnerships · Account-based marketing</p></div>
-        <div><h3>Technology &amp; analysis</h3><p>Data analysis · Cloud operations · Power BI reporting · Requirements gathering · Quality control · Risk management</p></div>
-        <div><h3>Ways of working</h3><p>Critical thinking · Stakeholder management · Agile / Scrum / SDLC · Written &amp; verbal communication · Cross-functional collaboration</p></div>
-        <div><h3>Selected certifications</h3><p>Anthropic Claude 101 · Claude Code in Action &amp; AI Fluency · PMI-CPMAI · Generative AI Overview for PMs · Microsoft AI &amp; Azure Fundamentals</p></div>
+    <section id="toolkit" class="section section-toolkit" aria-labelledby="toolkit-title">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><div class="section-kicker">06 <span>/</span> Toolkit</div><h2 id="toolkit-title">Useful skills.<br><em>Practical mindset.</em></h2></div>
+          <p>Combining analytical discipline with customer empathy and cross-functional execution.</p>
+        </div>
+        <div class="toolkit-grid">
+          <article><span class="toolkit-number">01</span><h3>Business &amp; growth</h3><p>Business strategy · Customer discovery · Go-to-market · Enterprise sales · Partnerships · Account-based marketing</p></article>
+          <article><span class="toolkit-number">02</span><h3>Technology &amp; analysis</h3><p>Data analysis · Cloud operations · Power BI reporting · Requirements gathering · Quality control · Risk management</p></article>
+          <article><span class="toolkit-number">03</span><h3>Ways of working</h3><p>Critical thinking · Stakeholder management · Agile / Scrum / SDLC · Communication · Cross-functional collaboration</p></article>
+          <article class="certifications"><span class="toolkit-number">04</span><h3>Selected certifications &amp; learning</h3><p>Anthropic Claude 101 · Claude Code in Action &amp; AI Fluency: Framework · PMI-CPMAI · Generative AI Overview for PMs · CDCA Introduction &amp; Talking to AI (Prompt Engineering for PMs) · PMP (PMI) · Microsoft AI &amp; Azure Fundamentals</p></article>
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="contact section">
-      <div class="section-wrap contact-wrap"><div class="section-kicker">07 / Contact</div><p class="eyebrow">Have a thoughtful challenge in mind?</p><h2>Let’s make<br><span>something useful.</span></h2><p class="contact-lede">I’m always happy to connect with people building meaningful products, growing businesses or supporting the next generation of talent.</p><div class="contact-actions"><a class="button button-light" href="mailto:amirkhanworks95@gmail.com">Email me <span>↗</span></a><a class="contact-link" href="https://linkedin.com/in/aaamirkhan" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="contact-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6210800" target="_blank" rel="noreferrer">SSRN ↗</a></div><div class="contact-meta"><span>Mumbai, India</span><span>+91 84464 42414</span><a href="mailto:amirkhanworks95@gmail.com">amirkhanworks95@gmail.com</a></div></div>
+    <section id="contact" class="section section-contact" aria-labelledby="contact-title">
+      <div class="section-wrap contact-inner">
+        <div class="section-kicker">07 <span>/</span> Contact</div>
+        <p class="eyebrow">Have a thoughtful challenge in mind?</p>
+        <h2 id="contact-title">Let’s make<br><em>something useful.</em></h2>
+        <p class="contact-lede">I’m happy to connect with people building meaningful products, growing businesses or supporting the next generation of talent.</p>
+        <div class="contact-actions">
+          <a class="button button-light" href="mailto:amirkhanworks95@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+          <a class="contact-secondary" href="https://linkedin.com/in/aaamirkhan" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="contact-secondary" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6210800" target="_blank" rel="noopener noreferrer">SSRN <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="contact-details"><span>Mumbai, India</span><a href="tel:+918446424214">+91 84464 42414</a><a href="mailto:amirkhanworks95@gmail.com">amirkhanworks95@gmail.com</a></div>
+      </div>
     </section>
   </main>
 
-  <footer class="footer section-wrap"><a class="wordmark" href="#top">AK<span>.</span></a><p>Built with curiosity and intention.</p><a href="#top" class="back-top">Back to top ↑</a><span class="copyright">© <span id="year"></span> Amir Khan</span></footer>
+  <footer class="site-footer">
+    <div class="footer-inner section-wrap">
+      <a class="wordmark" href="#top" aria-label="Back to top">AK<span>.</span></a>
+      <p>Built with curiosity and intention.</p>
+      <a class="footer-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      <span class="copyright">© <span id="year"></span> Amir Khan</span>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
