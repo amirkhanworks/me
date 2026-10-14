@@ -7,7 +7,7 @@ A responsive personal portfolio for Amir Khan, showcasing work across technology
 - `index.html` — semantic, single-page portfolio
 - `styles.css` — responsive layout and visual system
 - `script.js` — mobile navigation and dynamic footer year
-- `assets/` — personal photography used in the site
+- `assets/` — optimized portfolio photography and milestone images (WebP)
 
 ## Run locally
 
@@ -19,4 +19,4 @@ In the repository, open **Settings → Pages**, choose **Deploy from a branch**,
 
 ## Content
 
-The site links to Amir's LinkedIn profile, Birkbeck graduate story, and SSRN research paper. Contact details and career history are based on the supplied portfolio material.
+The site links to Amir's LinkedIn profile, Birkbeck graduate story, and SSRN research paper. The highlights section includes FutureMatch team celebrations and awards, University of London graduation, the 180 Degrees Consulting Sofia experience with Baringa mentors, and London Startup Fair volunteering. Contact details and career history are based on the supplied portfolio material.

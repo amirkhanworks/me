@@ -1,3 +1,9 @@
-# Portfolio photos
+# Portfolio imagery
 
-Place the supplied personal photographs here as `amir-senate-house.jpeg` and `amir-university-steps.jpeg`. The portfolio HTML references those filenames.
+WebP images are included to keep the site lightweight:
+- `futurematch-celebration.webp`
+- `futurematch-awards.webp`
+- `university-of-london-graduation.webp`
+- `180dc-sofia-team.webp`
+
+The site uses descriptive alt text for accessibility.
