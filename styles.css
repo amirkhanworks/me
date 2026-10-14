@@ -117,7 +117,6 @@ h1 em,h2 em{font-style:normal;color:#788e34}
 .highlight-body h3{font:700 clamp(18px,2vw,22px)/1.3 var(--display);letter-spacing:-.045em;margin:0 0 11px}
 .highlight-body>p:not(.eyebrow){margin:0 0 16px;font-size:12px;line-height:1.85}
 .card-index{margin-top:auto;padding-top:14px;font-size:8px;letter-spacing:.15em;color:#9aa298}
-.card-index{margin-top:auto;padding-top:14px;font-size:8px;letter-spacing:.15em;color:#9aa298}
 .card-links{display:flex;flex-wrap:wrap;gap:8px 15px;margin:0 0 12px}
 .card-links a{font-size:10px;font-weight:700;color:#526c2d;border-bottom:1px solid #d2ddbd;padding-bottom:3px}
 .card-links a span{margin-left:3px}
